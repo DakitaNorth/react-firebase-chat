@@ -1,28 +1,28 @@
 # React-Firebase-Chat
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Этот проект был запущен с помощью приложения [Create React App](https://github.com/facebook/create-react-app).
 
 ## Для начала работы:
 
-In the project directory, run:
+В каталоге проекта запустите:
 
 ### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Запускает приложение в режиме разработки.\
+Откроется [http://localhost:3000](http://localhost:3000) для просмотра проекта в браузере.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Каждый раз при внесении изменений в код, страница будет автоматически перезагружаться.\
+Также вы также можете увидеть любые ошибки lint в консоли.
 
 ### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Запускает тестовый прогон в режиме интерактивного просмотра.\
+Дополнительные сведения [running tests](https://facebook.github.io/create-react-app/docs/running-tests) в разделе о выполнении тестов.
 
 ### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Создает приложение для производства в папке сборки.\
+Он правильно связывает React в рабочем режиме и оптимизирует сборку для достижения наилучшей производительности.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Сборка сокращена, а имена файлов содержат хэши.\
+Ваше приложение готово к развертыванию!
