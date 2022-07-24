@@ -1,6 +1,7 @@
 # React-Firebase-Chat
 
-Этот проект был запущен с помощью приложения [Create React App](https://github.com/facebook/create-react-app).
+Этот проект был запущен с помощью приложения [Create React App](https://github.com/facebook/create-react-app).\
+Он представляет из себя наглядную демонстрацию возможности создания чата/мессенджера при помощи библиотеки React и БД Firebase.
 
 ## Для начала работы:
 
