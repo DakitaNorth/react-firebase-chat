@@ -1,0 +1,30 @@
+.nav_bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    padding: 0px 20px;
+    background-color: #242526;
+    border-bottom: 1px solid #333;
+}
+
+.nav_bar div a {
+    margin-right: 20px;
+}
+
+.nav_bar__logout {
+    max-width: 150px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    background-color: #242526;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+    font-size: 16px;
+}
+
+.nav_bar__logout:hover {
+    transform: scale(1.05);
+}

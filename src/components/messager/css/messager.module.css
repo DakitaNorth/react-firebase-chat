@@ -1,0 +1,35 @@
+.message_form {
+    position: absolute;
+    bottom: 0;
+    left: 20%;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 30px;
+}
+
+.message_form input {
+    width: 40vw;
+    margin: 0px 10px 10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.message_form__btn_send {
+    margin-top: -10px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border: 1px solid grey;
+    background-color: #242526;
+    color: #ffffff;
+    cursor: pointer;
+    transition: 0.3s ease-in-out all;
+    font-size: 16px;
+}
+
+.message_form__btn_send:hover {
+    transform: scale(1.05);
+}

@@ -1,38 +1,99 @@
-.App {
+@font-face {
+  font-family: "Inter Regular";
+  font-weight: 400;
+  font-style: normal;
+  src: url("/src/fonts/Inter-Regular.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter Medium";
+  font-weight: 500;
+  font-style: normal;
+  src: url("/src/fonts/Inter-Medium.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Inter Bold";
+  font-weight: 700;
+  font-style: normal;
+  src: url("/src/fonts/Inter-Bold.woff2") format("woff2");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Inter Regular", sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 18px;
+  color: #3E4958;
+  background-color: #242526;
+  color: #ffffff;
+}
+
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  -webkit-clip-path: inset(100%);
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
+.input {
+  padding-left: 10px;
+  padding-top: 12px;
+  padding-bottom: 13px;
+  background-color: #F7F8F9;
+  border: 1px solid #D5DDE0;
+  border-radius: 15px;
+  font-size: 16px;
+  line-height: 19px;
+  font-family: "Inter Regular", sans-serif;
+  color: #3E4958;
+}
+
+.button {
+  color: #ffffff;
+  background-color: #476DF5;
+  border-style: none;
+  border-radius: 15px;
+  text-transform: uppercase;
+  font-family: "Inter Bold";
+  font-size: 16px;
   text-align: center;
+  box-shadow: 0px 2px 8px #1069e3;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.page_main__heading {
+  margin: 0;
+  text-align: center;
+  font-family: "Inter Bold";
+  font-size: 20px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: grey;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.app__wrapper {
+  position: absolute;
+  width: 100vw;
+  height: calc(var(--vh, 1vh) * 100);
 }
